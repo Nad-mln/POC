@@ -1,0 +1,16 @@
+Base de données utilisée : MongoDB
+
+Nom de la base : avion
+Collection principale : avions (gérée par le modèle Mongoose "Avion")
+
+Structure d’un document :
+- altitude : Number (requis)
+- orientation : Number (requis)
+- date : Date (par défaut : date actuelle)
+
+Exemple :
+{
+  "altitude": 1200,
+  "orientation": 90,
+  "date": "2026-04-21T19:30:00.000Z"
+}
